@@ -1,2 +1,0 @@
-//异步回调函数
-//– 回调函数一定作为参数的最后一个参数出现： • function foo1(name, age, callback) { } • function foo2(value, callback1, callback2) { } – 回调函数的第一个参数默认接收错误信息，第二个参数才是真正 的回调数据（便于外界获取调用的错误情况）： • foo1('赵小黑', 19, function(error, data) { • if(error) throw error; • console.log(data); • })
